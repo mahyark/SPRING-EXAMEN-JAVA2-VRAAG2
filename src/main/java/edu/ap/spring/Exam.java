@@ -16,6 +16,9 @@ public class Exam {
 	// getallen terug te geven die deelbaar zijn door twee
 	// 2 punten
 	public int[] getTimesTwo(int[] numbers) {
+		int[] evenNumbers = null;
+		
+		return evenNumbers;
 	}
 	
 	// Maak gebruik van lambdas en streams om alle uppercase characters
