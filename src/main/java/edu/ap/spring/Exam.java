@@ -25,6 +25,13 @@ public class Exam {
 	// te tellen in de gegeven string
 	// 1 punt
 	public int countUppercaseCharacters(String sentence) {
+		int output;
+		
+		sentence.chars().foreach(
+					c -> !c.equals(c.toUpperCase())
+				);
+		
+		return output;
 	}
 	
 	// Maak gebruik van lambdas en streams om het aantal keren te tellen
